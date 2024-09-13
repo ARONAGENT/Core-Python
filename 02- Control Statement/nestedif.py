@@ -1,3 +1,4 @@
+# Using elif: Instead of multiple if conditions, use elif where appropriate.
 marks=int(input("enter marks"))
 if(marks>90):
     print("grade A+")
