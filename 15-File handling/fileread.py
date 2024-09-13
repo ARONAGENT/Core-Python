@@ -1,0 +1,5 @@
+file=open('first.txt','r')
+info=file.read()
+print(info)
+file.close()
+print("data read successfully")

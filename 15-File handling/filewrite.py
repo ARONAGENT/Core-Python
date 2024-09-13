@@ -1,0 +1,5 @@
+file=open('first.txt','a')
+data=input('Enter string :')
+file.write(data+'\n')
+file.close()
+print('data inserted successfuly')
