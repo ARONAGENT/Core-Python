@@ -1,4 +1,4 @@
-#pip install reportlab
+# first we have the install library (type cmd in the command promt) -> pip install reportlab
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
@@ -10,4 +10,4 @@ def createpdf(filename):
     c.save()
 
 
-createpdf("praffull.pdf")
+createpdf("newpdf.pdf")
