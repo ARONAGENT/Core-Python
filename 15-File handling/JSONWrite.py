@@ -1,4 +1,5 @@
-import json
+# write JSON type data in JSON file
+import json # we have to import module for json to handle json files
 mobile={
     'name':'Realme 5i',
     'ram':'4gb',
@@ -8,6 +9,6 @@ mobile={
 }
 
 file=open('mobile.json','a')
-json.dump(mobile,file)
+json.dump(mobile,file) # dump() method is used to write the data in JSON format in JSON File.
 file.close()
 print('JSON data inserted successfully')

@@ -1,3 +1,4 @@
+# write data in CSV format in CSV file
 file=open('cars.csv','a')
 nm=input('Enter carnm :')
 price=input('enter  car price :')
